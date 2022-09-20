@@ -6,9 +6,7 @@ import { ApolloProvider, ApolloClient, InMemoryCache } from "@apollo/client";
 
 const client = new ApolloClient({
   uri: "https://server-castronauts-charles.herokuapp.com/",
-  cache: new InMemoryCache(),
-  name: "web",
-  version: "1.0",
+  cache: new InMemoryCache()
 });
 
 ReactDOM.render(
